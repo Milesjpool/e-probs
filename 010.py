@@ -1,13 +1,15 @@
 __author__ = 'Miles'
 
+
 import math
 
-
-def nth_prime(n):
+def sum_of_primes(max):
+    sum = 0
     prime = 2
-    for i in range(1, n):
+    while prime < max:
+        sum += prime
         prime = next_prime(prime)
-    return prime
+    return sum
 
 
 def next_prime(number):
@@ -27,4 +29,4 @@ def is_prime(number):
             return False
     return True
 
-print(nth_prime(10001))
+print(sum_of_primes(2000000))

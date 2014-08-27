@@ -3,7 +3,6 @@ __author__ = 'Miles'
 import math
 
 def even_divide(max_divisor):
-    all_primes = [1] * max_divisor
     small_mult = 1
     for i in range(2, max_divisor + 1):
         i_primes = get_primes(i)

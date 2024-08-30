@@ -1,2 +1,4 @@
-e-prob
+Project Euler solutions.
 ======
+
+https://projecteuler.net
